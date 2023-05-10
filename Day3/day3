@@ -1,0 +1,24 @@
+using System;
+namespace  Mynamespace {
+  class Animals {
+	public string name;
+
+	public Animals(string x)
+	{
+		name = x;
+	}
+  }
+  class Dog : Animals {
+	public string myname;
+	public Dog (string y) : base(y)
+	{
+		myname = y;
+	}
+		}
+  static class Program2 {
+	public static void Main() {
+	  Animals parent = new Animals("string");
+	  Dog child = new Dog("string");
+	}
+  }
+}
