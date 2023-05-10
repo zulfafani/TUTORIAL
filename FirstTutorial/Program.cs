@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace Mynamespace
+{
+class Cat {
+  //field
+  string breed;
+  //method
+  public void eat() {
+  }
+}
+}

@@ -1,0 +1,59 @@
+namespace Mynamespace
+{
+class Customer
+{
+	//variables
+	public int idcustomer;
+	public string? namecustomer;
+	private string? adresscustomer;
+
+	//constructor
+	public Customer() {}
+
+	//method
+	public void Add()
+	{
+		Console.WriteLine("Add Customer");
+	}
+
+	public void Change()
+	{
+		Console.WriteLine("Change Customer");
+	}
+
+	//method with parameters
+	public void SetAdress(string adress)
+	{
+		adresscustomer = adress;
+	}
+
+	public string GetadressCustomer()
+	{
+		return adresscustomer;
+	}
+}
+
+static class Program
+
+{
+	static void Main()
+	{
+		Customer Obj = new Customer();
+
+		string x = Obj.GetadressCustomer();
+		Obj.SetAdress("Sidomukti");
+		Console.WriteLine(x);
+		Console.WriteLine(Obj.SetAdress);
+
+		Obj.Add();
+		Obj.Change();
+		Obj.SetAdress("Zulfa");
+		Console.WriteLine(Obj.GetadressCustomer());
+
+		Obj.idcustomer = 1;
+		Obj.namecustomer = "Zulfa";
+		Console.WriteLine(Obj.idcustomer);
+		Console.WriteLine(Obj.namecustomer);
+	}
+}
+}
