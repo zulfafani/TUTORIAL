@@ -1,0 +1,15 @@
+C:\TUTORIAL\Day4\Tuple\bin\Debug\net7.0\Tuple.exe
+C:\TUTORIAL\Day4\Tuple\bin\Debug\net7.0\Tuple.deps.json
+C:\TUTORIAL\Day4\Tuple\bin\Debug\net7.0\Tuple.runtimeconfig.json
+C:\TUTORIAL\Day4\Tuple\bin\Debug\net7.0\Tuple.dll
+C:\TUTORIAL\Day4\Tuple\bin\Debug\net7.0\Tuple.pdb
+C:\TUTORIAL\Day4\Tuple\obj\Debug\net7.0\Tuple.csproj.AssemblyReference.cache
+C:\TUTORIAL\Day4\Tuple\obj\Debug\net7.0\Tuple.GeneratedMSBuildEditorConfig.editorconfig
+C:\TUTORIAL\Day4\Tuple\obj\Debug\net7.0\Tuple.AssemblyInfoInputs.cache
+C:\TUTORIAL\Day4\Tuple\obj\Debug\net7.0\Tuple.AssemblyInfo.cs
+C:\TUTORIAL\Day4\Tuple\obj\Debug\net7.0\Tuple.csproj.CoreCompileInputs.cache
+C:\TUTORIAL\Day4\Tuple\obj\Debug\net7.0\Tuple.dll
+C:\TUTORIAL\Day4\Tuple\obj\Debug\net7.0\refint\Tuple.dll
+C:\TUTORIAL\Day4\Tuple\obj\Debug\net7.0\Tuple.pdb
+C:\TUTORIAL\Day4\Tuple\obj\Debug\net7.0\Tuple.genruntimeconfig.cache
+C:\TUTORIAL\Day4\Tuple\obj\Debug\net7.0\ref\Tuple.dll

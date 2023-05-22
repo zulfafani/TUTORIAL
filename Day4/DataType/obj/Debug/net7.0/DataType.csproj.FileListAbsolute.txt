@@ -1,0 +1,5 @@
+C:\TUTORIAL\Day4\DataType\obj\Debug\net7.0\DataType.csproj.AssemblyReference.cache
+C:\TUTORIAL\Day4\DataType\obj\Debug\net7.0\DataType.GeneratedMSBuildEditorConfig.editorconfig
+C:\TUTORIAL\Day4\DataType\obj\Debug\net7.0\DataType.AssemblyInfoInputs.cache
+C:\TUTORIAL\Day4\DataType\obj\Debug\net7.0\DataType.AssemblyInfo.cs
+C:\TUTORIAL\Day4\DataType\obj\Debug\net7.0\DataType.csproj.CoreCompileInputs.cache
