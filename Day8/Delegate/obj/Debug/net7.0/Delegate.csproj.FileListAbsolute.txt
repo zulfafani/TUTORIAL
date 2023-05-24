@@ -1,0 +1,15 @@
+C:\TUTORIAL\TUTORIAL\Day8\Delegate\bin\Debug\net7.0\Delegate.exe
+C:\TUTORIAL\TUTORIAL\Day8\Delegate\bin\Debug\net7.0\Delegate.deps.json
+C:\TUTORIAL\TUTORIAL\Day8\Delegate\bin\Debug\net7.0\Delegate.runtimeconfig.json
+C:\TUTORIAL\TUTORIAL\Day8\Delegate\bin\Debug\net7.0\Delegate.dll
+C:\TUTORIAL\TUTORIAL\Day8\Delegate\bin\Debug\net7.0\Delegate.pdb
+C:\TUTORIAL\TUTORIAL\Day8\Delegate\obj\Debug\net7.0\Delegate.csproj.AssemblyReference.cache
+C:\TUTORIAL\TUTORIAL\Day8\Delegate\obj\Debug\net7.0\Delegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\TUTORIAL\TUTORIAL\Day8\Delegate\obj\Debug\net7.0\Delegate.AssemblyInfoInputs.cache
+C:\TUTORIAL\TUTORIAL\Day8\Delegate\obj\Debug\net7.0\Delegate.AssemblyInfo.cs
+C:\TUTORIAL\TUTORIAL\Day8\Delegate\obj\Debug\net7.0\Delegate.csproj.CoreCompileInputs.cache
+C:\TUTORIAL\TUTORIAL\Day8\Delegate\obj\Debug\net7.0\Delegate.dll
+C:\TUTORIAL\TUTORIAL\Day8\Delegate\obj\Debug\net7.0\refint\Delegate.dll
+C:\TUTORIAL\TUTORIAL\Day8\Delegate\obj\Debug\net7.0\Delegate.pdb
+C:\TUTORIAL\TUTORIAL\Day8\Delegate\obj\Debug\net7.0\Delegate.genruntimeconfig.cache
+C:\TUTORIAL\TUTORIAL\Day8\Delegate\obj\Debug\net7.0\ref\Delegate.dll

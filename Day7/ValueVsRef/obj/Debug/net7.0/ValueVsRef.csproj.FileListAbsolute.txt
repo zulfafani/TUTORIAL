@@ -1,0 +1,15 @@
+C:\TUTORIAL\TUTORIAL\Day7\ValueVsRef\obj\Debug\net7.0\ValueVsRef.csproj.AssemblyReference.cache
+C:\TUTORIAL\TUTORIAL\Day7\ValueVsRef\obj\Debug\net7.0\ValueVsRef.GeneratedMSBuildEditorConfig.editorconfig
+C:\TUTORIAL\TUTORIAL\Day7\ValueVsRef\obj\Debug\net7.0\ValueVsRef.AssemblyInfoInputs.cache
+C:\TUTORIAL\TUTORIAL\Day7\ValueVsRef\obj\Debug\net7.0\ValueVsRef.AssemblyInfo.cs
+C:\TUTORIAL\TUTORIAL\Day7\ValueVsRef\obj\Debug\net7.0\ValueVsRef.csproj.CoreCompileInputs.cache
+C:\TUTORIAL\TUTORIAL\Day7\ValueVsRef\bin\Debug\net7.0\ValueVsRef.exe
+C:\TUTORIAL\TUTORIAL\Day7\ValueVsRef\bin\Debug\net7.0\ValueVsRef.deps.json
+C:\TUTORIAL\TUTORIAL\Day7\ValueVsRef\bin\Debug\net7.0\ValueVsRef.runtimeconfig.json
+C:\TUTORIAL\TUTORIAL\Day7\ValueVsRef\bin\Debug\net7.0\ValueVsRef.dll
+C:\TUTORIAL\TUTORIAL\Day7\ValueVsRef\bin\Debug\net7.0\ValueVsRef.pdb
+C:\TUTORIAL\TUTORIAL\Day7\ValueVsRef\obj\Debug\net7.0\ValueVsRef.dll
+C:\TUTORIAL\TUTORIAL\Day7\ValueVsRef\obj\Debug\net7.0\refint\ValueVsRef.dll
+C:\TUTORIAL\TUTORIAL\Day7\ValueVsRef\obj\Debug\net7.0\ValueVsRef.pdb
+C:\TUTORIAL\TUTORIAL\Day7\ValueVsRef\obj\Debug\net7.0\ValueVsRef.genruntimeconfig.cache
+C:\TUTORIAL\TUTORIAL\Day7\ValueVsRef\obj\Debug\net7.0\ref\ValueVsRef.dll

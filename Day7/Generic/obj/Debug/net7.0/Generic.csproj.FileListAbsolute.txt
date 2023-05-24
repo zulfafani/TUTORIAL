@@ -1,0 +1,5 @@
+C:\TUTORIAL\TUTORIAL\Day7\Generic\obj\Debug\net7.0\Generic.csproj.AssemblyReference.cache
+C:\TUTORIAL\TUTORIAL\Day7\Generic\obj\Debug\net7.0\Generic.GeneratedMSBuildEditorConfig.editorconfig
+C:\TUTORIAL\TUTORIAL\Day7\Generic\obj\Debug\net7.0\Generic.AssemblyInfoInputs.cache
+C:\TUTORIAL\TUTORIAL\Day7\Generic\obj\Debug\net7.0\Generic.AssemblyInfo.cs
+C:\TUTORIAL\TUTORIAL\Day7\Generic\obj\Debug\net7.0\Generic.csproj.CoreCompileInputs.cache
