@@ -1,0 +1,15 @@
+c:\C#\Bootcamp\vscode\Day 9\FormatterParse\bin\Debug\net7.0\FormatterParse.exe
+c:\C#\Bootcamp\vscode\Day 9\FormatterParse\bin\Debug\net7.0\FormatterParse.deps.json
+c:\C#\Bootcamp\vscode\Day 9\FormatterParse\bin\Debug\net7.0\FormatterParse.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 9\FormatterParse\bin\Debug\net7.0\FormatterParse.dll
+c:\C#\Bootcamp\vscode\Day 9\FormatterParse\bin\Debug\net7.0\FormatterParse.pdb
+c:\C#\Bootcamp\vscode\Day 9\FormatterParse\obj\Debug\net7.0\FormatterParse.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 9\FormatterParse\obj\Debug\net7.0\FormatterParse.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 9\FormatterParse\obj\Debug\net7.0\FormatterParse.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 9\FormatterParse\obj\Debug\net7.0\FormatterParse.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 9\FormatterParse\obj\Debug\net7.0\FormatterParse.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 9\FormatterParse\obj\Debug\net7.0\FormatterParse.dll
+c:\C#\Bootcamp\vscode\Day 9\FormatterParse\obj\Debug\net7.0\refint\FormatterParse.dll
+c:\C#\Bootcamp\vscode\Day 9\FormatterParse\obj\Debug\net7.0\FormatterParse.pdb
+c:\C#\Bootcamp\vscode\Day 9\FormatterParse\obj\Debug\net7.0\FormatterParse.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 9\FormatterParse\obj\Debug\net7.0\ref\FormatterParse.dll

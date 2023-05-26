@@ -1,0 +1,15 @@
+c:\C#\Bootcamp\vscode\Day 9\AnotherConversion\bin\Debug\net7.0\AnotherConversion.exe
+c:\C#\Bootcamp\vscode\Day 9\AnotherConversion\bin\Debug\net7.0\AnotherConversion.deps.json
+c:\C#\Bootcamp\vscode\Day 9\AnotherConversion\bin\Debug\net7.0\AnotherConversion.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 9\AnotherConversion\bin\Debug\net7.0\AnotherConversion.dll
+c:\C#\Bootcamp\vscode\Day 9\AnotherConversion\bin\Debug\net7.0\AnotherConversion.pdb
+c:\C#\Bootcamp\vscode\Day 9\AnotherConversion\obj\Debug\net7.0\AnotherConversion.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 9\AnotherConversion\obj\Debug\net7.0\AnotherConversion.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 9\AnotherConversion\obj\Debug\net7.0\AnotherConversion.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 9\AnotherConversion\obj\Debug\net7.0\AnotherConversion.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 9\AnotherConversion\obj\Debug\net7.0\AnotherConversion.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 9\AnotherConversion\obj\Debug\net7.0\AnotherConversion.dll
+c:\C#\Bootcamp\vscode\Day 9\AnotherConversion\obj\Debug\net7.0\refint\AnotherConversion.dll
+c:\C#\Bootcamp\vscode\Day 9\AnotherConversion\obj\Debug\net7.0\AnotherConversion.pdb
+c:\C#\Bootcamp\vscode\Day 9\AnotherConversion\obj\Debug\net7.0\AnotherConversion.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 9\AnotherConversion\obj\Debug\net7.0\ref\AnotherConversion.dll

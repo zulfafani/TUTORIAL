@@ -1,0 +1,15 @@
+c:\C#\Bootcamp\vscode\Day 9\stackOverFlow\bin\Debug\net7.0\stackOverFlow.exe
+c:\C#\Bootcamp\vscode\Day 9\stackOverFlow\bin\Debug\net7.0\stackOverFlow.deps.json
+c:\C#\Bootcamp\vscode\Day 9\stackOverFlow\bin\Debug\net7.0\stackOverFlow.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 9\stackOverFlow\bin\Debug\net7.0\stackOverFlow.dll
+c:\C#\Bootcamp\vscode\Day 9\stackOverFlow\bin\Debug\net7.0\stackOverFlow.pdb
+c:\C#\Bootcamp\vscode\Day 9\stackOverFlow\obj\Debug\net7.0\stackOverFlow.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 9\stackOverFlow\obj\Debug\net7.0\stackOverFlow.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 9\stackOverFlow\obj\Debug\net7.0\stackOverFlow.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 9\stackOverFlow\obj\Debug\net7.0\stackOverFlow.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 9\stackOverFlow\obj\Debug\net7.0\stackOverFlow.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 9\stackOverFlow\obj\Debug\net7.0\stackOverFlow.dll
+c:\C#\Bootcamp\vscode\Day 9\stackOverFlow\obj\Debug\net7.0\refint\stackOverFlow.dll
+c:\C#\Bootcamp\vscode\Day 9\stackOverFlow\obj\Debug\net7.0\stackOverFlow.pdb
+c:\C#\Bootcamp\vscode\Day 9\stackOverFlow\obj\Debug\net7.0\stackOverFlow.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 9\stackOverFlow\obj\Debug\net7.0\ref\stackOverFlow.dll

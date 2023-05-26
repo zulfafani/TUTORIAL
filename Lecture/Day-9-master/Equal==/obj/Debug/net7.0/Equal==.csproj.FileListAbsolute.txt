@@ -1,0 +1,15 @@
+c:\C#\Bootcamp\vscode\Day 9\Equal==\bin\Debug\net7.0\Equal==.exe
+c:\C#\Bootcamp\vscode\Day 9\Equal==\bin\Debug\net7.0\Equal==.deps.json
+c:\C#\Bootcamp\vscode\Day 9\Equal==\bin\Debug\net7.0\Equal==.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 9\Equal==\bin\Debug\net7.0\Equal==.dll
+c:\C#\Bootcamp\vscode\Day 9\Equal==\bin\Debug\net7.0\Equal==.pdb
+c:\C#\Bootcamp\vscode\Day 9\Equal==\obj\Debug\net7.0\Equal==.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 9\Equal==\obj\Debug\net7.0\Equal==.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 9\Equal==\obj\Debug\net7.0\Equal==.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 9\Equal==\obj\Debug\net7.0\Equal==.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 9\Equal==\obj\Debug\net7.0\Equal==.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 9\Equal==\obj\Debug\net7.0\Equal==.dll
+c:\C#\Bootcamp\vscode\Day 9\Equal==\obj\Debug\net7.0\refint\Equal==.dll
+c:\C#\Bootcamp\vscode\Day 9\Equal==\obj\Debug\net7.0\Equal==.pdb
+c:\C#\Bootcamp\vscode\Day 9\Equal==\obj\Debug\net7.0\Equal==.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 9\Equal==\obj\Debug\net7.0\ref\Equal==.dll
