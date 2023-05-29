@@ -1,0 +1,15 @@
+C:\TUTORIAL\TUTORIAL\Day10\List\bin\Debug\net7.0\List.exe
+C:\TUTORIAL\TUTORIAL\Day10\List\bin\Debug\net7.0\List.deps.json
+C:\TUTORIAL\TUTORIAL\Day10\List\bin\Debug\net7.0\List.runtimeconfig.json
+C:\TUTORIAL\TUTORIAL\Day10\List\bin\Debug\net7.0\List.dll
+C:\TUTORIAL\TUTORIAL\Day10\List\bin\Debug\net7.0\List.pdb
+C:\TUTORIAL\TUTORIAL\Day10\List\obj\Debug\net7.0\List.csproj.AssemblyReference.cache
+C:\TUTORIAL\TUTORIAL\Day10\List\obj\Debug\net7.0\List.GeneratedMSBuildEditorConfig.editorconfig
+C:\TUTORIAL\TUTORIAL\Day10\List\obj\Debug\net7.0\List.AssemblyInfoInputs.cache
+C:\TUTORIAL\TUTORIAL\Day10\List\obj\Debug\net7.0\List.AssemblyInfo.cs
+C:\TUTORIAL\TUTORIAL\Day10\List\obj\Debug\net7.0\List.csproj.CoreCompileInputs.cache
+C:\TUTORIAL\TUTORIAL\Day10\List\obj\Debug\net7.0\List.dll
+C:\TUTORIAL\TUTORIAL\Day10\List\obj\Debug\net7.0\refint\List.dll
+C:\TUTORIAL\TUTORIAL\Day10\List\obj\Debug\net7.0\List.pdb
+C:\TUTORIAL\TUTORIAL\Day10\List\obj\Debug\net7.0\List.genruntimeconfig.cache
+C:\TUTORIAL\TUTORIAL\Day10\List\obj\Debug\net7.0\ref\List.dll
