@@ -1,0 +1,15 @@
+C:\TUTORIAL\TUTORIAL\Day9\Exercise\bin\Debug\net7.0\Exercise.exe
+C:\TUTORIAL\TUTORIAL\Day9\Exercise\bin\Debug\net7.0\Exercise.deps.json
+C:\TUTORIAL\TUTORIAL\Day9\Exercise\bin\Debug\net7.0\Exercise.runtimeconfig.json
+C:\TUTORIAL\TUTORIAL\Day9\Exercise\bin\Debug\net7.0\Exercise.dll
+C:\TUTORIAL\TUTORIAL\Day9\Exercise\bin\Debug\net7.0\Exercise.pdb
+C:\TUTORIAL\TUTORIAL\Day9\Exercise\obj\Debug\net7.0\Exercise.csproj.AssemblyReference.cache
+C:\TUTORIAL\TUTORIAL\Day9\Exercise\obj\Debug\net7.0\Exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\TUTORIAL\TUTORIAL\Day9\Exercise\obj\Debug\net7.0\Exercise.AssemblyInfoInputs.cache
+C:\TUTORIAL\TUTORIAL\Day9\Exercise\obj\Debug\net7.0\Exercise.AssemblyInfo.cs
+C:\TUTORIAL\TUTORIAL\Day9\Exercise\obj\Debug\net7.0\Exercise.csproj.CoreCompileInputs.cache
+C:\TUTORIAL\TUTORIAL\Day9\Exercise\obj\Debug\net7.0\Exercise.dll
+C:\TUTORIAL\TUTORIAL\Day9\Exercise\obj\Debug\net7.0\refint\Exercise.dll
+C:\TUTORIAL\TUTORIAL\Day9\Exercise\obj\Debug\net7.0\Exercise.pdb
+C:\TUTORIAL\TUTORIAL\Day9\Exercise\obj\Debug\net7.0\Exercise.genruntimeconfig.cache
+C:\TUTORIAL\TUTORIAL\Day9\Exercise\obj\Debug\net7.0\ref\Exercise.dll

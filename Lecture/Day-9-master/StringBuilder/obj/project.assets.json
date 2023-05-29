@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\kinar\\.nuget\\packages\\": {}
+    "C:\\Users\\Batch 2\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C#\\Bootcamp\\vscode\\Day 9\\StringBuilder\\StringBuilder.csproj",
+      "projectUniqueName": "C:\\TUTORIAL\\TUTORIAL\\Lecture\\Day-9-master\\StringBuilder\\StringBuilder.csproj",
       "projectName": "StringBuilder",
-      "projectPath": "C:\\C#\\Bootcamp\\vscode\\Day 9\\StringBuilder\\StringBuilder.csproj",
-      "packagesPath": "C:\\Users\\kinar\\.nuget\\packages\\",
-      "outputPath": "C:\\C#\\Bootcamp\\vscode\\Day 9\\StringBuilder\\obj\\",
+      "projectPath": "C:\\TUTORIAL\\TUTORIAL\\Lecture\\Day-9-master\\StringBuilder\\StringBuilder.csproj",
+      "packagesPath": "C:\\Users\\Batch 2\\.nuget\\packages\\",
+      "outputPath": "C:\\TUTORIAL\\TUTORIAL\\Lecture\\Day-9-master\\StringBuilder\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kinar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Batch 2\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

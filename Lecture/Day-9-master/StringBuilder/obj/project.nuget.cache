@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hM0m2KSj13xqkj2NLtOEXkbbgUbNiPwIM8QL5msX9weUtA5AVZLfkeWxzDZNsJgx34yjpr0NY+BSrb48Xed7ag==",
+  "dgSpecHash": "Wa8E6/jdclBqPLk46rSPxDMuwRsDr33YTRgfLZ/Y8pEv9YzjF8p6cmLOUx85d3lSRtoXNm1oZRDDLTph3ZdYKg==",
   "success": true,
-  "projectFilePath": "c:\\C#\\Bootcamp\\vscode\\Day 9\\StringBuilder\\StringBuilder.csproj",
+  "projectFilePath": "C:\\TUTORIAL\\TUTORIAL\\Lecture\\Day-9-master\\StringBuilder\\StringBuilder.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,15 @@
+c:\C#\Bootcamp\vscode\Day 9\ToUpperInvariant\bin\Debug\net7.0\ToUpperInvariant.exe
+c:\C#\Bootcamp\vscode\Day 9\ToUpperInvariant\bin\Debug\net7.0\ToUpperInvariant.deps.json
+c:\C#\Bootcamp\vscode\Day 9\ToUpperInvariant\bin\Debug\net7.0\ToUpperInvariant.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 9\ToUpperInvariant\bin\Debug\net7.0\ToUpperInvariant.dll
+c:\C#\Bootcamp\vscode\Day 9\ToUpperInvariant\bin\Debug\net7.0\ToUpperInvariant.pdb
+c:\C#\Bootcamp\vscode\Day 9\ToUpperInvariant\obj\Debug\net7.0\ToUpperInvariant.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 9\ToUpperInvariant\obj\Debug\net7.0\ToUpperInvariant.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 9\ToUpperInvariant\obj\Debug\net7.0\ToUpperInvariant.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 9\ToUpperInvariant\obj\Debug\net7.0\ToUpperInvariant.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 9\ToUpperInvariant\obj\Debug\net7.0\ToUpperInvariant.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 9\ToUpperInvariant\obj\Debug\net7.0\ToUpperInvariant.dll
+c:\C#\Bootcamp\vscode\Day 9\ToUpperInvariant\obj\Debug\net7.0\refint\ToUpperInvariant.dll
+c:\C#\Bootcamp\vscode\Day 9\ToUpperInvariant\obj\Debug\net7.0\ToUpperInvariant.pdb
+c:\C#\Bootcamp\vscode\Day 9\ToUpperInvariant\obj\Debug\net7.0\ToUpperInvariant.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 9\ToUpperInvariant\obj\Debug\net7.0\ref\ToUpperInvariant.dll

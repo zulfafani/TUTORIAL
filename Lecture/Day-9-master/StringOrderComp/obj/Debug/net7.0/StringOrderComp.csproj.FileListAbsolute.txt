@@ -1,0 +1,15 @@
+c:\C#\Bootcamp\vscode\Day 9\StringOrderComp\bin\Debug\net7.0\StringOrderComp.exe
+c:\C#\Bootcamp\vscode\Day 9\StringOrderComp\bin\Debug\net7.0\StringOrderComp.deps.json
+c:\C#\Bootcamp\vscode\Day 9\StringOrderComp\bin\Debug\net7.0\StringOrderComp.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 9\StringOrderComp\bin\Debug\net7.0\StringOrderComp.dll
+c:\C#\Bootcamp\vscode\Day 9\StringOrderComp\bin\Debug\net7.0\StringOrderComp.pdb
+c:\C#\Bootcamp\vscode\Day 9\StringOrderComp\obj\Debug\net7.0\StringOrderComp.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 9\StringOrderComp\obj\Debug\net7.0\StringOrderComp.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 9\StringOrderComp\obj\Debug\net7.0\StringOrderComp.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 9\StringOrderComp\obj\Debug\net7.0\StringOrderComp.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 9\StringOrderComp\obj\Debug\net7.0\StringOrderComp.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 9\StringOrderComp\obj\Debug\net7.0\StringOrderComp.dll
+c:\C#\Bootcamp\vscode\Day 9\StringOrderComp\obj\Debug\net7.0\refint\StringOrderComp.dll
+c:\C#\Bootcamp\vscode\Day 9\StringOrderComp\obj\Debug\net7.0\StringOrderComp.pdb
+c:\C#\Bootcamp\vscode\Day 9\StringOrderComp\obj\Debug\net7.0\StringOrderComp.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 9\StringOrderComp\obj\Debug\net7.0\ref\StringOrderComp.dll

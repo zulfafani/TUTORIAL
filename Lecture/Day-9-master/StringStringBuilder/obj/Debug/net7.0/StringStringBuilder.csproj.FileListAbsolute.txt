@@ -1,0 +1,15 @@
+c:\C#\Bootcamp\vscode\Day 9\StringStringBuilder\bin\Debug\net7.0\StringStringBuilder.exe
+c:\C#\Bootcamp\vscode\Day 9\StringStringBuilder\bin\Debug\net7.0\StringStringBuilder.deps.json
+c:\C#\Bootcamp\vscode\Day 9\StringStringBuilder\bin\Debug\net7.0\StringStringBuilder.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 9\StringStringBuilder\bin\Debug\net7.0\StringStringBuilder.dll
+c:\C#\Bootcamp\vscode\Day 9\StringStringBuilder\bin\Debug\net7.0\StringStringBuilder.pdb
+c:\C#\Bootcamp\vscode\Day 9\StringStringBuilder\obj\Debug\net7.0\StringStringBuilder.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 9\StringStringBuilder\obj\Debug\net7.0\StringStringBuilder.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 9\StringStringBuilder\obj\Debug\net7.0\StringStringBuilder.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 9\StringStringBuilder\obj\Debug\net7.0\StringStringBuilder.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 9\StringStringBuilder\obj\Debug\net7.0\StringStringBuilder.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 9\StringStringBuilder\obj\Debug\net7.0\StringStringBuilder.dll
+c:\C#\Bootcamp\vscode\Day 9\StringStringBuilder\obj\Debug\net7.0\refint\StringStringBuilder.dll
+c:\C#\Bootcamp\vscode\Day 9\StringStringBuilder\obj\Debug\net7.0\StringStringBuilder.pdb
+c:\C#\Bootcamp\vscode\Day 9\StringStringBuilder\obj\Debug\net7.0\StringStringBuilder.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 9\StringStringBuilder\obj\Debug\net7.0\ref\StringStringBuilder.dll

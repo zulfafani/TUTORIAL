@@ -13,3 +13,18 @@ c:\C#\Bootcamp\vscode\Day 9\StringBuilder\obj\Debug\net7.0\refint\StringBuilder.
 c:\C#\Bootcamp\vscode\Day 9\StringBuilder\obj\Debug\net7.0\StringBuilder.pdb
 c:\C#\Bootcamp\vscode\Day 9\StringBuilder\obj\Debug\net7.0\StringBuilder.genruntimeconfig.cache
 c:\C#\Bootcamp\vscode\Day 9\StringBuilder\obj\Debug\net7.0\ref\StringBuilder.dll
+C:\TUTORIAL\TUTORIAL\Lecture\Day-9-master\StringBuilder\bin\Debug\net7.0\StringBuilder.exe
+C:\TUTORIAL\TUTORIAL\Lecture\Day-9-master\StringBuilder\bin\Debug\net7.0\StringBuilder.deps.json
+C:\TUTORIAL\TUTORIAL\Lecture\Day-9-master\StringBuilder\bin\Debug\net7.0\StringBuilder.runtimeconfig.json
+C:\TUTORIAL\TUTORIAL\Lecture\Day-9-master\StringBuilder\bin\Debug\net7.0\StringBuilder.dll
+C:\TUTORIAL\TUTORIAL\Lecture\Day-9-master\StringBuilder\bin\Debug\net7.0\StringBuilder.pdb
+C:\TUTORIAL\TUTORIAL\Lecture\Day-9-master\StringBuilder\obj\Debug\net7.0\StringBuilder.csproj.AssemblyReference.cache
+C:\TUTORIAL\TUTORIAL\Lecture\Day-9-master\StringBuilder\obj\Debug\net7.0\StringBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\TUTORIAL\TUTORIAL\Lecture\Day-9-master\StringBuilder\obj\Debug\net7.0\StringBuilder.AssemblyInfoInputs.cache
+C:\TUTORIAL\TUTORIAL\Lecture\Day-9-master\StringBuilder\obj\Debug\net7.0\StringBuilder.AssemblyInfo.cs
+C:\TUTORIAL\TUTORIAL\Lecture\Day-9-master\StringBuilder\obj\Debug\net7.0\StringBuilder.csproj.CoreCompileInputs.cache
+C:\TUTORIAL\TUTORIAL\Lecture\Day-9-master\StringBuilder\obj\Debug\net7.0\StringBuilder.dll
+C:\TUTORIAL\TUTORIAL\Lecture\Day-9-master\StringBuilder\obj\Debug\net7.0\refint\StringBuilder.dll
+C:\TUTORIAL\TUTORIAL\Lecture\Day-9-master\StringBuilder\obj\Debug\net7.0\StringBuilder.pdb
+C:\TUTORIAL\TUTORIAL\Lecture\Day-9-master\StringBuilder\obj\Debug\net7.0\StringBuilder.genruntimeconfig.cache
+C:\TUTORIAL\TUTORIAL\Lecture\Day-9-master\StringBuilder\obj\Debug\net7.0\ref\StringBuilder.dll
