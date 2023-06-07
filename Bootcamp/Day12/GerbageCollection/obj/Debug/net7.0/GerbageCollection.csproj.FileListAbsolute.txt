@@ -1,0 +1,15 @@
+C:\TUTORIAL\TUTORIAL\Bootcamp\Day12\GerbageCollection\obj\Debug\net7.0\GerbageCollection.csproj.AssemblyReference.cache
+C:\TUTORIAL\TUTORIAL\Bootcamp\Day12\GerbageCollection\obj\Debug\net7.0\GerbageCollection.GeneratedMSBuildEditorConfig.editorconfig
+C:\TUTORIAL\TUTORIAL\Bootcamp\Day12\GerbageCollection\obj\Debug\net7.0\GerbageCollection.AssemblyInfoInputs.cache
+C:\TUTORIAL\TUTORIAL\Bootcamp\Day12\GerbageCollection\obj\Debug\net7.0\GerbageCollection.AssemblyInfo.cs
+C:\TUTORIAL\TUTORIAL\Bootcamp\Day12\GerbageCollection\obj\Debug\net7.0\GerbageCollection.csproj.CoreCompileInputs.cache
+C:\TUTORIAL\TUTORIAL\Bootcamp\Day12\GerbageCollection\bin\Debug\net7.0\GerbageCollection.exe
+C:\TUTORIAL\TUTORIAL\Bootcamp\Day12\GerbageCollection\bin\Debug\net7.0\GerbageCollection.deps.json
+C:\TUTORIAL\TUTORIAL\Bootcamp\Day12\GerbageCollection\bin\Debug\net7.0\GerbageCollection.runtimeconfig.json
+C:\TUTORIAL\TUTORIAL\Bootcamp\Day12\GerbageCollection\bin\Debug\net7.0\GerbageCollection.dll
+C:\TUTORIAL\TUTORIAL\Bootcamp\Day12\GerbageCollection\bin\Debug\net7.0\GerbageCollection.pdb
+C:\TUTORIAL\TUTORIAL\Bootcamp\Day12\GerbageCollection\obj\Debug\net7.0\GerbageCollection.dll
+C:\TUTORIAL\TUTORIAL\Bootcamp\Day12\GerbageCollection\obj\Debug\net7.0\refint\GerbageCollection.dll
+C:\TUTORIAL\TUTORIAL\Bootcamp\Day12\GerbageCollection\obj\Debug\net7.0\GerbageCollection.pdb
+C:\TUTORIAL\TUTORIAL\Bootcamp\Day12\GerbageCollection\obj\Debug\net7.0\GerbageCollection.genruntimeconfig.cache
+C:\TUTORIAL\TUTORIAL\Bootcamp\Day12\GerbageCollection\obj\Debug\net7.0\ref\GerbageCollection.dll
