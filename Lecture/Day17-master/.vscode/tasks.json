@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/FirstTutorial/FirstTutorial.csproj",
+                "${workspaceFolder}/D_DebuggerTutorial/D_DebuggerTutorial.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/FirstTutorial/FirstTutorial.csproj",
+                "${workspaceFolder}/D_DebuggerTutorial/D_DebuggerTutorial.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/FirstTutorial/FirstTutorial.csproj"
+                "${workspaceFolder}/D_DebuggerTutorial/D_DebuggerTutorial.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

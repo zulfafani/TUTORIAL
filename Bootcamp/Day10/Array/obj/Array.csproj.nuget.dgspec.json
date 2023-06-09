@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TUTORIAL\\TUTORIAL\\Day10\\Array\\Array.csproj": {}
+    "C:\\TUTORIAL\\TUTORIAL\\Bootcamp\\Day10\\Array\\Array.csproj": {}
   },
   "projects": {
-    "C:\\TUTORIAL\\TUTORIAL\\Day10\\Array\\Array.csproj": {
+    "C:\\TUTORIAL\\TUTORIAL\\Bootcamp\\Day10\\Array\\Array.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TUTORIAL\\TUTORIAL\\Day10\\Array\\Array.csproj",
+        "projectUniqueName": "C:\\TUTORIAL\\TUTORIAL\\Bootcamp\\Day10\\Array\\Array.csproj",
         "projectName": "Array",
-        "projectPath": "C:\\TUTORIAL\\TUTORIAL\\Day10\\Array\\Array.csproj",
+        "projectPath": "C:\\TUTORIAL\\TUTORIAL\\Bootcamp\\Day10\\Array\\Array.csproj",
         "packagesPath": "C:\\Users\\Batch 2\\.nuget\\packages\\",
-        "outputPath": "C:\\TUTORIAL\\TUTORIAL\\Day10\\Array\\obj\\",
+        "outputPath": "C:\\TUTORIAL\\TUTORIAL\\Bootcamp\\Day10\\Array\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Batch 2\\AppData\\Roaming\\NuGet\\NuGet.Config"

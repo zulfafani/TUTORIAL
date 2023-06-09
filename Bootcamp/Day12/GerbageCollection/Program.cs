@@ -8,7 +8,7 @@ namespace GarbageCollection
 		public static void Main(string[] args)
 		{
 			StringBuilder myStringBuilder = new StringBuilder();
-			for (int i = 0; i < 10000000; i++)
+			for (int i = 0; i < 10; i++)
 			{
 				Console.WriteLine("Hello, Welcome to String Builder");
 				myStringBuilder.Append("abc");
@@ -17,7 +17,7 @@ namespace GarbageCollection
 				myStringBuilder.Clear();
 				myStringBuilder.Append("ghi");
 			}
-			Console.ReadLine();
+			Console.ReadKey();
 		}
 	}
 
@@ -35,7 +35,6 @@ namespace GarbageCollection
 				}
 				disposedValue = true;
 			}
-
 		}
 		~MyClass()
 		{
