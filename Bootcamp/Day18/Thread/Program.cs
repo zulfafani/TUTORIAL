@@ -16,7 +16,7 @@ class Program
 		// Create a new thread using the ThreadStart delegate
 		Thread t3 = new Thread(new ThreadStart(IsElseConditionalStatement));
 		t3.Start();
-		t3.Join();
+		t3.Join(); //nungguin selesai
 	}
 
 	static void DoWorkSimple()
