@@ -81,22 +81,24 @@ namespace SimpleAutoChess
 		{
 			Console.WriteLine("Race of unit not exists. Please enter the correct Race.");
 		}
-		public static void PlayerUnitInfo(string playerName, List<IUnit> units, Dictionary<string, List<IUnit>> _units)
+		public static void PlayerUnitInfo(Dictionary<string, List<IUnit>> playerUnits)
 		{
-			//GameManager gameManager = new GameManager();
 			Console.WriteLine("\nPlayer List:");
 			int playerIndex = 1;
-			foreach (var entry in _units)
+			foreach (var entry in playerUnits)
 			{
-				//string playerName = entry.Key;
-				//List<IUnit> units = entry.Value;
+				string playerName = entry.Key;
+				List<IUnit> units = entry.Value;
 
 				Console.WriteLine($"Player {playerIndex}: {playerName}");
+				Console.WriteLine($"Player ID: {player.GenerateRandomId()()}");
 
 				Console.WriteLine("Units:");
 				foreach (IUnit unit in units)
 				{
 					Console.WriteLine($"- {unit.GetRace()}");
+					Console.WriteLine($"Class: {unit.GetClass()}");
+					Console.WriteLine($"Quality: {unit.GetQuality()}");
 				}
 
 				playerIndex++;

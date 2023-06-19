@@ -115,28 +115,9 @@ namespace SimpleAutoChess
 
 			}
 			
-			//Display.PlayerUnitInfo(playerName, units, _units);
-			
-			//Display
-			//Console.WriteLine("\nPlayer List:");
-			//int playerIndex = 1;
-			//foreach (var entry in gameManager.GetPlayerUnits())
-			//{
-				//string playerName = entry.Key;
-				//List<IUnit> units = entry.Value;
+			//Display information of player and unit
+			Display.PlayerUnitInfo(gameManager.GetPlayerUnits());
 
-				//Console.WriteLine($"Player {playerIndex}: {playerName}");
-
-				//Console.WriteLine("Units:");
-				//foreach (IUnit unit in units)
-				//{
-					//Console.WriteLine($"- {unit.GetRace()}");
-				//}
-
-				//playerIndex++;
-			//}
-
-			//Display.PlayerUnitInfo();
 			// Show empty board
 			Display.ShowEmptyBoard();
 			//Display.ShowBoard(IPosition position, IUnit unit)
