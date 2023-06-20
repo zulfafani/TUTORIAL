@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Numerics;
 using SimpleAutoChess;
 
 namespace SimpleAutoChess
@@ -16,8 +15,8 @@ namespace SimpleAutoChess
 			do
 			{
 				Console.Write("Enter the number of players: ");
-				string input = Console.ReadLine();
-				if (int.TryParse(input, out numPlayers) && numPlayers > 1)
+				string? input = Console.ReadLine();
+				if (int.TryParse(input, out numPlayers) && numPlayers > 1 && numPlayers <= 8)
 				{
 					validInput = true;
 				}
@@ -59,7 +58,7 @@ namespace SimpleAutoChess
 
 				do
 				{
-					string input = Console.ReadLine();
+					string? input = Console.ReadLine();
 
 					if (int.TryParse(input, out numUnits) && numUnits > 0)
 					{
@@ -76,7 +75,7 @@ namespace SimpleAutoChess
 				{
 					Console.WriteLine("Available Race: Beast, Human, Goblin, Dragon, Dwarf");
 					Console.Write($"Enter the Race of unit {i + 1}: ");
-					string raceInput = Console.ReadLine();
+					string? raceInput = Console.ReadLine();
 					Enum.TryParse(raceInput, out Race race);
 					IUnit unit = new Unit();
 					unit.SetRace(race);
@@ -88,107 +87,101 @@ namespace SimpleAutoChess
 						continue;
 					}
 					gameManager.AddUnitForPlayer(playerName, unit);
-
-					//Input Location of Units
-					//Console.Write($"Enter the location of the {race.ToString()} on board (row column): ");
-					//string locationInput = Console.ReadLine();
-					//string[] locationValues = locationInput.Split(' ');
-					//int row, column;
-
-					//if (locationValues.Length == 2 && int.TryParse(locationValues[0], out row) && int.TryParse(locationValues[1], out column))
-					//{
-						//IPosition square = new Position();
-						//square.row = row;
-						//square.col = column;
-						//gameManager.AddUnitOnBoard(playerName, unit, square);
-
-						// Process the row and column values as needed
-						// For simplicity, we'll just display them here
-						//Console.WriteLine($"Unit {unit.GetRace} added at location: Row {row}, Column {column}");
-					//}
-					//else
-					//{
-						//Console.WriteLine("Invalid location input. Please enter valid row and column values.");
-						//i--; // Decrement i to repeat the iteration for the same unit index
-					//}
 				}
-
 			}
-			
 			//Display information of player and unit
-			Display.PlayerUnitInfo(gameManager.GetPlayerUnits());
+			Display.PlayerUnitInfo(gameManager.GetPlayerUnits(), gameManager);
 
-			// Show empty board
-			Display.ShowEmptyBoard();
-			//Display.ShowBoard(IPosition position, IUnit unit)
+			// Input size of Board and print the Board
+			int boardSize;
+			bool validSizeInput = false;
+			Console.WriteLine("\n--AutoChess Board--");
+			do
+			{
+				Console.Write("Enter the size of Board (8 - 12):");
+				string? inputSize = Console.ReadLine();
+				if (int.TryParse(inputSize, out boardSize) & boardSize >= 8 && boardSize <= 12)
+				{
+					validSizeInput = true;
+				}
+				else
+				{
+					Display.InvalidNumberInfo();
+				}
+			}
+			while (!validSizeInput); //repeat the iteration for input size board
 
-			//Invite Players
-			//Console.Write("Enter player name: ");
-			//string playerName = Console.ReadLine();
-			//IPlayer player1 = new Player();
-			//player1.SetName(playerName);
+			string[,] board = new string[boardSize, boardSize];
 
-			//IPlayer player2 = new Player();
-			//player2.SetName("Player 2");
+			// Initialize the board with empty spaces
+			for (int i = 0; i < boardSize; i++)
+			{
+				for (int j = 0; j < boardSize; j++)
+				{
+					board[i, j] = "[     ]";
+					Console.Write(board[i, j]);
+				}
+				Console.WriteLine();
+			}
 
-			//gameManager.AddPlayer(player1);
-			//gameManager.AddPlayer(player2);
+			// Place the units on the board
+			foreach (var entry in gameManager.GetPlayerUnits())
+			{
+				List<IUnit> units = entry.Value;
 
-			//Add Unit player1
-			//Console.WriteLine("Available Race: Beast, Human, Goblin, Dragon, Dwarf");
-			//Console.WriteLine("Enter Race for Units:");
-			//string raceInput1 = Console.ReadLine();
-			//Enum.TryParse(raceInput1, out Race race1);
-			//IUnit unit1 = new Unit();
-			//unit1.SetRace(race1);
+				foreach (IUnit unit in units)
+				{
+					Console.Write($"Enter the location of {unit.GetRace()} for {entry.Key} (row column): ");
+					string locationInput = Console.ReadLine();
+					string[] locationValues = locationInput.Split(' ');
+					int row, column;
 
-			//Add Unit player2
-			//IUnit unit2 = new Unit();
-			//Race race2 = (Race)new Random().Next(Enum.GetValues(typeof(Race)).Length);
-			//unit2.SetRace(race2);
+					if (locationValues.Length == 2 && int.TryParse(locationValues[0], out row) && int.TryParse(locationValues[1], out column))
+					{
+						if (row >= 0 && row < boardSize && column >= 0 && column < boardSize)
+						{
+							board[row, column] = $"[{unit.GetRace()}]";
+							Console.WriteLine($"Unit {unit.GetRace()} added at location: Row {row}, Column {column}");
+						}
+						else
+						{
+							Console.WriteLine("Invalid location input. Skipping unit placement.");
+							//method untuk random placement units
+						}
+					}
+					else
+					{
+						Console.WriteLine("Invalid location input. Skipping unit placement.");
+						//method untuk random placement units
+					}
+				}
+				//foreach (IUnit unit2 in units)
+				//{
+					//if(!unit2.ContainsKey[row, column])
+					//{
+						//Console.Write($"Enter the location of {unit2.GetRace()} for {entry.Key} (row column): ");
+					//}
+					
+				//}
+			}
 
-			//Players with Units
-			//gameManager.AddUnitForPlayer(player1, unit1);
-			//gameManager.AddUnitForPlayer(player2, unit2);
-
-			//Add location of Units on Board belum exeption handling
-			//Console.WriteLine($"Enter location of unit on the board: ");
-			//Console.Write("Enter row: ");
-			//string inputRow = Console.ReadLine();
-			//int numberRow = int.Parse(inputRow);
-			//Console.Write("Enter column: ");
-			//string inputCol = Console.ReadLine();
-			//int numberCol = int.Parse(inputCol);
-
-			//IPosition square1 = new Position();
-			//square1.row = numberRow;
-			//square1.col = numberCol;
-
-			//IPosition square2 = new Position();
-			//square2.row = 2;
-			//square2.col = 3;
-
-			//gameManager.AddUnitOnBoard(player1, unit1, square1);
-			//gameManager.AddUnitOnBoard(player2, unit2, square2);
-
-			//display.ShowInfoPlyers(player1);
-			//display.ShowInfoUnits(unit1);
-			//display.ShowInfoPlyers(player2);
-			//display.ShowInfoUnits(unit2);
-
-
-			//Display.ShowBoard(square1, unit1);
-			//Display.ShowBoard(square2, unit2);
-
+			// Print the board
+			for (int i = 0; i < boardSize; i++)
+			{
+				for (int j = 0; j < boardSize; j++)
+				{
+					Console.Write(board[i, j]);
+				}
+				Console.WriteLine();
+			}
 			//Action<IUnit> onBattleComplete = (unit) =>
 			//{
-				//Console.WriteLine("Battle complete!");
-				//Console.WriteLine($"Winner is Race {unit.Race}, Class {unit.Class}, Quality {unit.Quality}");
+			//Console.WriteLine("Battle complete!");
+			//Console.WriteLine($"Winner is Race {unit.Race}, Class {unit.Class}, Quality {unit.Quality}");
 			//};
 
 			//gameManager.Battle2(unit1, unit2, onBattleComplete);
 
 		}
-
 	}
 }
