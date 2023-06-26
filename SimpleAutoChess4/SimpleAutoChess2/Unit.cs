@@ -5,17 +5,47 @@ using SimpleAutoChess;
 
 namespace SimpleAutoChess
 {
-    public class Unit : IUnit//, IHealth, IAttack
+    public class Unit : IUnit, IAttack, IHealth//, IGold
     {
         private UnitName _unitName;
         private Race _race;
         private Class _class;
         private Quality _quality;
-        //private int _health;
-        //private int _attack;
+        private int _health;
+        private int _attack;
 
         //public event Action<int> HealthModified;
         //public event Action<int> AttackModified;
+
+        public IPlayer Owner { get; }
+        public int Health { get; set; }
+        public int Attack { get; }
+
+        public Unit()
+        {
+
+        }
+        public Unit(IPlayer owner, int health, int attack)
+        {
+            Owner = owner;
+            Health = health;
+            Attack = attack;
+        }
+
+        public void TakeDamage(int damage)
+        {
+            Health -= damage;
+            if (Health < 0)
+                Health = 0;
+        }
+
+        //public bool IsAlive()
+        //{
+            //return health > 0;
+        //}
+
+
+
 
         public Race Race
         {
@@ -30,12 +60,20 @@ namespace SimpleAutoChess
         {
             get { return _quality; }
         }
-
         public UnitName unitName
         {
             get { return _unitName; }
             set { _unitName = value; }
         }
+        public int Health2
+        {
+            get { return _health; }
+        }
+        public int Attack2
+        {
+            get { return _attack; }
+        }
+
         UnitName IUnit.GetUnitName()
         {
             return _unitName;
@@ -63,6 +101,21 @@ namespace SimpleAutoChess
             _quality = (Quality)new Random().Next(Enum.GetValues(typeof(Quality)).Length);
             return _quality;
         }
+
+        int IHealth.GetHealth()
+        {
+            return _health;
+        }
+        void IHealth.ModifyHealth(int damage)
+        {
+            _health -= damage;
+        }
+        int IAttack.GetAttack()
+        {
+            return _health;
+        }
+
+
         //int IHealth.GetHealth()
         //{
         //_health = (int)new Random().Next(0,10);
