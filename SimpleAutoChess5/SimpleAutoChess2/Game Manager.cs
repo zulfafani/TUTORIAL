@@ -148,113 +148,8 @@ namespace SimpleAutoChess
 			}
 			_board[position].Add(unitName);
 		}
-
-
-
-		public void Battle(int numPlayer)
-		{
-			var players = _playerUnitsName.Keys.ToList();
-
-			int numPlayers = numPlayer;
-
-			Console.WriteLine("---------- BATTLE START ----------");
-
-			bool continueBattle = true;
-			int round = 1;
-
-			while (continueBattle)
-			{
-				Console.WriteLine("Round " + round);
-				Console.WriteLine();
-
-				for (int i = 0; i < numPlayers; i++)
-				{
-					Player attackingPlayer = players[i];
-					Player defendingPlayer = players[(i + 1) % numPlayers];
-
-					Console.WriteLine(attackingPlayer.Name + " vs " + defendingPlayer.Name);
-					Console.WriteLine();
-
-					List<IUnit> attackingPlayerUnits = _playerUnitsName[attackingPlayer];
-					List<IUnit> defendingPlayerUnits = _playerUnitsName[defendingPlayer];
-
-					while (attackingPlayerUnits.Count > 0 && defendingPlayerUnits.Count > 0)
-					{
-						// Attacker's turn
-						IUnit attackingUnit = attackingPlayerUnits[0];
-						IUnit defendingUnit = defendingPlayerUnits[0];
-
-						Console.WriteLine(attackingUnit.GetType().Name + " from " + attackingPlayer.Name + " attacks " + defendingUnit.GetType().Name + " from " + defendingPlayer.Name);
-						attackingUnit.AttackTarget(defendingUnit);
-
-						if (!defendingUnit.IsAlive())
-						{
-							Console.WriteLine(defendingUnit.GetType().Name + " from " + defendingPlayer.Name + " is defeated!");
-							defendingPlayerUnits.RemoveAt(0);
-						}
-
-						Console.WriteLine();
-
-						// Swap players
-						Player temp = attackingPlayer;
-						attackingPlayer = defendingPlayer;
-						defendingPlayer = temp;
-
-						List<IUnit> tempUnits = attackingPlayerUnits;
-						attackingPlayerUnits = defendingPlayerUnits;
-						defendingPlayerUnits = tempUnits;
-					}
-
-					Console.WriteLine("---------- BATTLE END ----------");
-					Console.WriteLine();
-				}
-
-				// Check if any player has lost all units
-				continueBattle = false;
-
-				foreach (var playerUnits in _playerUnitsName)
-				{
-					if (playerUnits.Value.Count == 0)
-					{
-						continueBattle = true;
-						break;
-					}
-				}
-
-				round++;
-			}
-
-			Console.WriteLine("---------- BATTLE OVER ----------");
-			Console.WriteLine();
-
-			// Menampilkan pemenang atau hasil seri
-			List<Player> winners = new List<Player>();
-
-			foreach (var playerUnits in _playerUnitsName)
-			{
-				if (playerUnits.Value.Count > 0)
-				{
-					winners.Add(playerUnits.Key);
-				}
-			}
-
-			if (winners.Count == 0)
-			{
-				Console.WriteLine("The battle ends in a draw!");
-			}
-			else
-			{
-				Console.WriteLine("The winners are:");
-
-				foreach (var winner in winners)
-				{
-					Console.WriteLine(winner.Name);
-				}
-			}
-		}
-
-
-		public void StartGame()
+		
+		public void Battle()
 		{
 			bool isBattleFinished = false;
 			Player winner = null;
@@ -271,17 +166,6 @@ namespace SimpleAutoChess
 					foreach (var attackerUnit in attackerUnits)
 					{
 						Console.WriteLine($"HP {attackerUnit.GetType().Name}:  {attackerUnit.GetHealth()}, is alive: {attackerUnit.IsAlive()}");
-						if (attackerUnit.IsAlive() == false)
-						{
-							//continue;
-							winner = DetermineWinner();
-							Console.WriteLine("The winner is: " + winner.Name);
-							if(winner != null)
-							{
-								isBattleFinished = true;
-							}
-						}
-
 						//serangan
 						foreach (var targetPlayerUnitsPair in _playerUnitsName)
 						{
@@ -296,16 +180,6 @@ namespace SimpleAutoChess
 									//damage
 									if (targetUnit.IsAlive())
 									{
-										if (attackerUnit.IsAlive() == false)
-										{
-											//continue;
-											winner = DetermineWinner();
-											Console.WriteLine("The winner is: " + winner.Name);
-											if(winner != null)
-											{
-												isBattleFinished = true;
-											}
-										}
 										targetUnit.TakeDamage(attackerUnit.GetAttack());
 										Console.WriteLine($"{attackerUnit.GetType().Name} attack {targetUnit.GetType().Name}, take damage {attackerUnit.GetAttack()}, new HP {targetUnit.GetHealth()}");
 									}
@@ -326,19 +200,31 @@ namespace SimpleAutoChess
 
 		private bool CheckBattleFinished()
 		{
-			
 			foreach (var playerUnitsPair in _playerUnitsName)
 			{
 				List<IUnit> units = playerUnitsPair.Value;
 
+				bool allUnitsDead = true;
+
 				foreach (var unit in units)
 				{
 					if (unit.IsAlive())
-						return false;
+					{
+						allUnitsDead = false;
+						break;
+					}
+				}
+
+				if (allUnitsDead)
+				{
+					return true;
 				}
 			}
-			return true;
+
+			return false;
 		}
+
+
 		private Player DetermineWinner()
 		{
 			Dictionary<Player, int> playerUnitCounts = new Dictionary<Player, int>();
@@ -352,13 +238,15 @@ namespace SimpleAutoChess
 				foreach (var unit in units)
 				{
 					if (unit.IsAlive())
+					{
 						aliveUnitCount++;
+					}
 				}
 
 				playerUnitCounts[player] = aliveUnitCount;
 			}
 
-			Player winner = null;
+			Player? winner = null;
 			int maxAliveUnitCount = 0;
 
 			foreach (var playerUnitCountPair in playerUnitCounts)
